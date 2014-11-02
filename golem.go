@@ -20,31 +20,31 @@ var (
 )
 
 // Print info statements
-func info(i interface{}) {
+func Info(i interface{}) {
 	INFO.Print(i)
 }
 
 // Printf info statements
-func infof(s string, i interface{}) {
+func Infof(s string, i interface{}) {
 	INFO.Printf(s, i)
 }
 
 // Print warning statements
-func warn(i interface{}) {
+func Warn(i interface{}) {
 	WARN.Print(i)
 }
 
 // Printf warning statements
-func warnf(s string, i interface{}) {
+func Warnf(s string, i interface{}) {
 	WARN.Printf(s, i)
 }
 
 // Print verbose statements if debug is true
-func verb(i interface{}) {
+func Verb(i interface{}) {
 	VERB.Print(i)
 }
 
 // Printf verbose statements if debug is true
-func verbf(s string, i interface{}) {
+func Verbf(s string, i interface{}) {
 	VERB.Printf(s, i)
 }
